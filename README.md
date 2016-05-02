@@ -25,6 +25,10 @@ assert(lodash3.VERSION.includes("3"));
 assert(lodash4.VERSION.includes("4"));
 ```
 
+## Real UseCase
+
+- [Add support for ESLint v2 by Daniel15 · Pull Request #107 · fkling/astexplorer](https://github.com/fkling/astexplorer/pull/107/files#diff-b9cfc7f2cdf78a7f4b91a753d10865a2R52 "Add support for ESLint v2 by Daniel15 · Pull Request #107 · fkling/astexplorer")
+
 ## Tests
 
     npm test
