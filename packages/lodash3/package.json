@@ -1,0 +1,11 @@
+{
+  "name": "lodash3",
+  "version": "1.0.0",
+  "description": "lodash@3",
+  "main": "index.js",
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.0.0"
+  }
+}

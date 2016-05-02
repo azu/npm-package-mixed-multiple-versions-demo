@@ -1,0 +1,34 @@
+{
+  "name": "npm-package-mixed-multiple-versions-demo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/npm-package-mixed-multiple-versions-demo.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/npm-package-mixed-multiple-versions-demo",
+  "license": "MIT",
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "bugs": {
+    "url": "https://github.com/azu/npm-package-mixed-multiple-versions-demo/issues"
+  },
+  "version": "1.0.0",
+  "description": "demo for mixing multiple version of the same npm pacakge in a project.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "dependencies": {
+    "lodash3": "file:packages/lodash3",
+    "lodash4": "file:packages/lodash4"
+  }
+}
